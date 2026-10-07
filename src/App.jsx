@@ -130,7 +130,7 @@ export default function App() {
       <main className="player-card">
         <section className="now-playing">
           <div className="cover-wrap">
-            <img src="/cover.png" alt="Portada del álbum" className={`cover ${playing ? 'spinning' : ''}`} />
+            <img src="/cover.jpg" alt="Portada del álbum" className={`cover ${playing ? 'spinning' : ''}`} />
             <div className="cover-glow" />
           </div>
 
