@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from 'react'
 const TRACKS = [
   { title: 'The KFE Song (rap version)', file: '1-The KFE Song (rap version).mp3' },
   { title: 'You Are A Food Explorer', file: '2-You Are A Food Explorer.mp3' },
-  { title: 'You Are A Food Explorer (folk version)', file: '2-You Are A Food Explorer (folk version).mp3' },
   { title: 'Raising Adventurous Eaters', file: '3-Raising adventurous eaters.mp3' },
   { title: 'A Better Food Story', file: '4-A Better Food Story.mp3' },
   { title: "You Don't Have To Like It", file: '5-You Don_t have to like it.mp3' },
@@ -13,8 +12,6 @@ const TRACKS = [
   { title: "There's Nothing To Fix", file: '9-There_s Nothing to Fix.mp3' },
   { title: 'A Place at the Table', file: '10-A Place at the Table.mp3' },
   { title: 'Eat the Rainbow', file: '11-Eat the Rainbow.mp3' },
-  { title: 'The KFE Song (pop version)', file: 'The KFE Song (pop version).mp3' },
-  { title: 'The KFE Song (pop version 2)', file: 'The KFE Song (pop version 2).mp3' },
 ]
 
 const trackSrc = (track) => encodeURI(`/music/${track.file}`)
